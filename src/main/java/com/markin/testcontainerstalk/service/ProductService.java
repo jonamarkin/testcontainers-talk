@@ -2,10 +2,12 @@ package com.markin.testcontainerstalk.service;
 
 import com.markin.testcontainerstalk.model.Product;
 import com.markin.testcontainerstalk.repository.ProductRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ProductService {
 
     private final ProductRepository productRepository;
